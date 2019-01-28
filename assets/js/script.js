@@ -1,3 +1,13 @@
+/* correction Exercice
+function changeImage(){
+
+}
+
+function resetImage(){
+
+}
+*/
+
 // Déclaration de ma fonction changeImg().
 function changeImage(object,ev){
   //On récupère les images et on les assigne a une variable.
@@ -23,8 +33,8 @@ function changeImage(object,ev){
     image5.setAttribute('src', 'assets/image/image5_2.jpg');
   }
 }
-// Déclaration de ma fonction reChangeImg.
-function changeImageOrigin(object,ev){
+// Déclaration de ma fonction changeImageOrigin.
+function resetImage(object,ev){
 
   //On remet le src de base lorsque la souris sort de l'image.
   if(ev == 'image1'){
